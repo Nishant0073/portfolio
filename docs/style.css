@@ -1,0 +1,329 @@
+*media
+{
+        margin:0px;
+        padding:0px;
+}
+
+#main
+{
+        border:2px solid black;
+        border-radius:2%;
+        width:90%;
+        height:550px;
+        display:block;
+        margin:0px auto 0px auto;
+        backdrop-filter: blur(10px);
+        display:flex;
+        flex-direction:column;
+        overflow-x: hidden;
+        overflow-y: auto;
+}
+
+body
+{
+        background-image:url('./media/background.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+}
+.dp
+{
+        width:20%;
+        height:50%;
+        margin:7% 0 0 10%;
+        border-radius:3%;
+        /* background-color:black; */
+        /* backdrop-filter: blur(100px); */
+        /* filter: blur(2px); */
+        /* -webkit-filter: blur(2px); */
+}
+
+#photo
+{
+        margin:24px 0 0 0;
+        width:100%;
+        border-radius:3%;
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        transition: transform .2s;
+}
+#photo:hover{
+        transform: scale(1.02);
+}
+
+.head
+{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+}
+.sub-head
+{
+        display:block;
+   margin: 0.8%  auto 0.8% auto ;
+   width: 50%;
+}
+
+.but
+{
+        transition: transform .2s;
+        padding:1% 2% 1% 2%;
+        text-align:center;
+        justify-content:center;
+        background-color:black;
+        color:white;
+        font:15px solid white;
+        border-radius:8%;
+        margin:0 2% 0 2%;
+        text-decoration:none;
+        font-family: 'Kreon', serif;
+}
+
+.but:hover
+{
+        transform: scale(1.02);
+}
+.info
+{
+
+        margin:7% 5% 0 15%;
+        /* border:5px solid black; */
+        width:50%;
+}
+.name
+{
+        text-align:center;
+        font-size:50px;
+        line-height: 80%;
+        color:#00fad0;
+        font-family: 'Alata', sans-serif;
+}
+
+.container
+{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        margin-top:4%;
+}
+
+.intro
+{
+        font-size:25px;
+        font-style:italic;
+        font-family: 'Teko', sans-serif;
+        text-align:center;
+        color:white;
+}
+
+
+
+/************************ Project ********************************/
+
+.project
+{
+        width:20%;
+        height:300px;
+        border:4px solid black;
+        border-radius:5%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        margin:2%;
+        text-align:center;
+        transition: transform .2s;
+}
+
+.ptitle
+{
+        font-family: 'Alata', sans-serif;
+        font-size:30px;
+        font-weight:bold;
+        color:White;
+        margin:0 0 20% 0;
+        /* padding:20% 0 20% 0; */
+}
+
+.pdescription
+{
+        color:#08080a;
+        font-size:18px;
+        font-family: 'Rubik', sans-serif;
+}
+a
+{
+        text-decoration:none;
+}
+
+.project:hover
+{
+        transform: scale(1.02);
+}
+
+
+
+/********************** Certificates ***********************************/
+
+
+
+.certi
+{
+        width:20%;
+        height:300px;
+        border:4px solid black;
+        border-radius:5%;
+        display:flex;
+        flex-direction:column;
+        margin:2%;
+        text-align:center;
+        transition: transform .2s;
+        flex:0 auto;
+}
+.certi:hover
+{
+        transform: scale(1.02);
+}
+
+.certi > * {
+        flex: 0  auto;
+        height: 200px;
+}
+
+.cimage
+{
+        /* border:2px solid white; */
+        height:70%;
+        border-radius:5%;
+        margin-bottom:09%;
+        margin-top:09%;
+}
+
+.cinfo
+{
+        margin-top:20%;
+        color:#08080a;
+        font-size:18px;
+        font-family: 'Rubik', sans-serif;
+        text-align:center;
+        vertical-align: middle;
+
+}
+
+.ccerti
+{
+        width:100%;
+        height:100%;
+        border-radius:3%;
+}
+
+/*************** Scroll Bar ***********************/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 8px;
+   margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+/********************** Social Media ********************/
+
+.media
+{
+        transition: transform .2s;
+        width:20%;
+        height:300px;
+        border:4px solid black;
+        border-radius:5%;
+        display:flex;
+        flex-direction:column;
+        margin:2%;
+        text-align:center;
+        flex:0 auto;
+}
+.media:hover
+{
+        transform: scale(1.02);
+}
+.slogo
+{
+        width:50%;
+        height:40%;
+        margin:20% auto 20% auto ;
+        background-color:white;
+        border-radius:20%;
+}
+
+.sname
+{
+        font-size:50px;
+        font-family: 'Alata', sans-serif;
+        color:black;
+        /* border:2px solid white; */
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+}
+
+.skill
+{
+        transition: transform .2s;
+        width:20%;
+        height:300px;
+        border:4px solid black;
+        border-radius:5%;
+        display:flex;
+        flex-direction:column;
+        margin:2% 2% 1% 2%;
+        text-align:center;
+        flex:0 auto;
+}
+.skill:hover
+{
+        transform: scale(1.02);
+}
+.skillname
+{
+        font-size:30px;
+        font-family: 'Alata', sans-serif;
+        color:black;
+        /* border:2px solid white; */
+        flex-shrink:1;
+        margin-top:0px;
+}
+
+.footer
+{
+        text-align:center;
+        width:auto;
+        font-size:14px;
+        font-style:solid;
+        color:#d4f1f9 ;
+        font-family: 'Lobster', cursive;
+}
+
+#active
+{
+        padding:1% 2% 1% 2%;
+        text-align:center;
+        justify-content:center;
+        color:white;
+        color:black;
+        border:3px solid black;
+        font:16px solid white;
+        border-radius:8%;
+        margin:0 2% 0 2%;
+        text-decoration:none;
+        font-family: 'Kreon', serif;
+        backdrop-filter: blur(10px);
+}
